@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://api.fontshare.com/v2/css?f[]=cabinet-grotesk@600&display=swap');
+@import "tailwindcss";
+
+
+@theme {
+    --font-DMsans: "DM Sans", sans-serif; 
+    --font-CabinetGrotesk: 'Cabinet Grotesk', sans-serif;
+}
+
+@font-face {
+    font-family: 'velcan';
+    src: url('/fonts/velcan.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
